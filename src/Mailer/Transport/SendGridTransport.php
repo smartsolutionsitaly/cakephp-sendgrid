@@ -77,6 +77,7 @@ class SendGridTransport extends AbstractTransport
         }
         
         $client = new \SendGrid($this->getConfig('key'));
+        $res = $client->send($se);
         
         return [
             'code' => $res->statusCode(),
