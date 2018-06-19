@@ -15,6 +15,7 @@
  * @copyright 2018 Smart Solutions S.r.l. (https://smartsolutions.it)
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  * @link      https://smartsolutions.it Smart Solutions
+ * @link      https://sendgrid.com SendGrid
  * @since     1.0.0
  */
 namespace SmartSolutionsItaly\CakePHP\SendGrid\Mailer\Transport;
