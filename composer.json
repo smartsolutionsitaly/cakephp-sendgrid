@@ -1,0 +1,44 @@
+{
+	"name" : "smartsolutionsitaly/cakephp-sendgrid",
+	"description" : "SendGrid Transport for CakePHP",
+	"keywords" : [
+		"cakephp",
+		"component",
+		"sendgrid",
+		"mail",
+		"transport"
+	],
+	"type" : "cakephp-plugin",
+	"license" : "MIT",
+	"require" : {,
+        "sendgrid/sendgrid": "^7.0"
+	},
+	"require-dev" : {
+		"cakephp/cakephp" : "^3.5"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"SmartSolutionsItaly\\CakePHP\\SendGrid\\" : "src"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"SmartSolutionsItaly\\CakePHP\\SendGrid\\Test\\" : "tests",
+			"Cake\\Test\\" : "./vendor/cakephp/cakephp/tests"
+		}
+	},
+	"homepage" : "https://github.com/smartsolutionsitaly/cakephp-sendgrid",
+	"authors" : [{
+			"name" : "Lucio Benini",
+			"email" : "dev@smartsolutions.it",
+			"homepage" : "https://smartsolutions.it",
+			"role" : "Web Developer"
+		}
+	],
+	"support" : {
+		"email" : "info@smartsolutions.it",
+		"issues" : "https://github.com/smartsolutionsitaly/cakephp-sendgrid/issues",
+		"wiki" : "https://github.com/smartsolutionsitaly/cakephp-sendgrid/wiki",
+		"source" : "https://github.com/smartsolutionsitaly/cakephp-sendgrid"
+	}
+}
