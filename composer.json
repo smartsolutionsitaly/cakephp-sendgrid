@@ -10,8 +10,8 @@
 	],
 	"type" : "cakephp-plugin",
 	"license" : "MIT",
-	"require" : {,
-        "sendgrid/sendgrid": "^7.0"
+	"require" : {
+        	"sendgrid/sendgrid": "^7.0"
 	},
 	"require-dev" : {
 		"cakephp/cakephp" : "^3.5"
