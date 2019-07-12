@@ -18,12 +18,12 @@
   },
   "autoload" : {
     "psr-4" : {
-      "SmartSolutionsItaly\\CakePHP\\SendGrid\\" : "src"
+      "SmartSolutionsItaly\\CakePHP\\SendGrid\\Mailer\\Transport\\" : "src"
     }
   },
   "autoload-dev" : {
     "psr-4" : {
-      "SmartSolutionsItaly\\CakePHP\\SendGrid\\Test\\" : "tests",
+      "SmartSolutionsItaly\\CakePHP\\SendGrid\\Mailer\\Transport\\Test\\" : "tests",
       "Cake\\Test\\" : "./vendor/cakephp/cakephp/tests"
     }
   },
